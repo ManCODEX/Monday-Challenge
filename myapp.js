@@ -1,5 +1,5 @@
 function rainShout(num){
-	let array =[];
+	let array = [];
     if (num%3 === 0){
 	array.push('pling');
     }
