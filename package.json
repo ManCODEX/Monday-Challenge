@@ -1,0 +1,18 @@
+{
+  "name": "mochai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myapp.js",
+  "scripts": {
+    "test": "test"
+  } ,
+    "scripts":{
+        "test": "mocha test/apptest.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
