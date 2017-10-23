@@ -1,4 +1,6 @@
-function rainShout(num){
+
+
+ const rainShout = (num)=>{
 	let array = [];
     if (num%3 === 0){
 	array.push('pling');
@@ -10,11 +12,10 @@ function rainShout(num){
 	array.push('plong');
     }
 	else
-if ( num%3 > 0 && num%5 > 0 && num%7 > 0)
-	console.log('Raindrop-speak doesn’t know what to make of that');
+ if ( num%3 > 0 && num%5 > 0 && num%7 > 0)
+	console.log('34');
     
     return array.join('');
     };
 
-
-module.exports = { rainShout };
+ module.exports = {rainShout};
